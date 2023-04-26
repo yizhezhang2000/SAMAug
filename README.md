@@ -11,7 +11,9 @@ Examples of the SAM-augmented images:
 
 More technical details can be found in this technical report: 
 
-Yizhe Zhang, Tao Zhou, Peixian Liang, Danny Z. Chen, Input Augmentation with SAM: Boosting Medical Image Segmentation with Segmentation Foundation Model, arXiv preprint arXiv:2304.11332. Link: https://arxiv.org/abs/2304.11332
+Yizhe Zhang, Tao Zhou, Peixian Liang, Danny Z. Chen, Input Augmentation with SAM: Boosting Medical Image Segmentation with Segmentation Foundation Model, arXiv preprint arXiv:2304.11332. 
+
+Link: https://arxiv.org/abs/2304.11332
 
 Below we highlight some experimental results.
 

@@ -80,7 +80,7 @@ In the near future, we will release more SAM-augmented images for more datasets.
 You can also use the script in [SAMAug.py](https://github.com/yizhezhang2000/SAMAug/blob/main/SAMAug.py) for generating SAM-augmented images for your own medical image data.
 
 ##
-Questions and comments are welcome! 
+Questions and comments are welcome! Thank you!
 
 
 

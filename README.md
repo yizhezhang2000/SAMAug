@@ -9,7 +9,6 @@ More technical details can be found in this technical report: https://arxiv.org/
 
 
 
-
 ## Experiments and Results:
 
 ### cell segmentation in H&E stained images:
@@ -53,8 +52,9 @@ The SAM augmented images for the CVC-ClinicDB, CVC-300, CVC-ColonDB, ETIS-LaribP
 
 
 
-In the near future, we will release more SAM augmented images for more datasets. To generate SAM augmented images, please take a look at the link below.
+In the near future, we will release more SAM augmented images for more datasets. 
 
+You can also use the script in SAMAug_batch.py for generating SAM augmented images for your own medical image dataset.
 
 
 Please let us know your thoughts on this method. Thank you! 

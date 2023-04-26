@@ -1,14 +1,20 @@
 # SAMAug
 
-We introduce a simple yet effective method (SAMAug) for utilizing segmentation foundation model (e.g., SAM) for improving medical image segmentation. SAMAug utilizes segmentation foundation model (SAM) to augment an image input for medical image segmentation. This method does not require fine-tuning on the foundation model, and expects to have the foundation model (SAM) only being applied once per image in model training. An overview of the proposed method can be seen below.
+We introduce an efficient and effective method (SAMAug) for utilizing segmentation foundation model (e.g., SAM) for boosting medical image segmentation. SAMAug utilizes segmentation foundation model (SAM) to augment image inputs for medical image segmentation. This method does not require fine-tuning on the foundation model. An overview of the proposed method can be seen below.
 
 
 
-Experiments and Results:
-on cell segmentation in H&E stained images:
+
+More technical details can be found in this technical report:
+
+## Pre-computed SAM Augmented Images
+
+## Experiments and Results:
+
+### cell segmentation in H&E stained images:
 
 
-on polyp segmentation:
+### polyp segmentation:
 
 CVC-ClinicDB:
 Model | SAMAug | meanDic | meanIoU |

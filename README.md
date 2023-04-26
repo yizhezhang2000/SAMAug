@@ -14,7 +14,6 @@ CVC-300:
 Model | SAMAug | meanDic | meanIoU |
 --- | --- | --- | --- |
 PraNet | no | 87.7 | 80.2 | 
---- | --- | --- | --- |
 PraNet | yes | 87.9 | 80.6 | 
 
 

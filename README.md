@@ -1,11 +1,11 @@
 # SAMAug: Boosting Medical Image Segmentation with Segmentation Foundation Model
 
-We introduce an efficient method (SAMAug) that utilizes segmentation foundation model (e.g., SAM) for improving medical image segmentation. SAMAug utilizes segmentation foundation model (SAM) to augment image inputs for medical images. The augmented images thus generated are then used for training and testing a task-specific medical image segmentation model (e.g., a U-Net model). SAMAug does not require fine-tuning on the foundation model. See below for an overview of the proposed method.
+We introduce SAMAug, an efficient method (SAMAug) that utilizes a segmentation foundation model (e.g., SAM) for improving medical image segmentation. SAMAug utilizes a segmentation foundation model (SAM) to augment image inputs for medical images. The augmented images thus generated are then used for training and testing a task-specific medical image segmentation model (e.g., a U-Net model). SAMAug does not require fine-tuning on the foundation model. See below for an overview of the proposed method.
 
 
 <img src="https://github.com/yizhezhang2000/SAMAug/blob/main/SAMAug_overview.png" width="80%" height="80%" />
 
-Examples of the SAM augmented images:
+Examples of the SAM-augmented images:
 
 <img src="https://github.com/yizhezhang2000/SAMAug/blob/main/examples.png" width="80%" height="80%" />
 
@@ -69,8 +69,7 @@ Attention Net[4] | yes | 63.15 | 81.49 |
 
 ## Pre-computed SAM Augmented Images
 
-The SAM augmented images for the CVC-ClinicDB, CVC-300, CVC-ColonDB, ETIS-LaribPolypDB and Kvasir datasets can be obtained at the link below.
-
+The SAM-augmented images for the CVC-ClinicDB, CVC-300, CVC-ColonDB, ETIS-LaribPolypDB, and Kvasir datasets can be obtained at the link below.
 
 
 In the near future, we will release more SAM augmented images for more datasets. 
@@ -78,8 +77,7 @@ In the near future, we will release more SAM augmented images for more datasets.
 You can also use the script in SAMAug_batch.py for generating SAM augmented images for your own medical image dataset.
 
 
-Please let us know your thoughts on this method. Thank you! 
-
+Questions and comments are welcome! Thank you!
 
 
 

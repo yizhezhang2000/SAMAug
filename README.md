@@ -74,7 +74,7 @@ The SAM-augmented images for the CVC-ClinicDB, CVC-300, CVC-ColonDB, ETIS-LaribP
 
 In the near future, we will release more SAM-augmented images for more datasets. 
 
-You can also use the script in SAMAug_batch.py for generating SAM-augmented images for your own medical image dataset.
+You can also use the script in SAMAug.py for generating SAM-augmented images for your own medical image dataset.
 
 
 Questions and comments are welcome! Thank you!

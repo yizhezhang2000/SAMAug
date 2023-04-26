@@ -23,43 +23,43 @@ Below we highlight some experimental results.
 CVC-ClinicDB:
 Model | SAMAug | meanDic | meanIoU |
 --- | --- | --- | --- |
-PraNet[1] | no | 85.8 | 80.0 | 
-PraNet[1] | yes | 89.1 | 83.9 | 
+PraNet[1] | &#10007; | 85.8 | 80.0 | 
+PraNet[1] | &#10003; | 89.1 | 83.9 | 
 
 CVC-300:
 Model | SAMAug | meanDic | meanIoU |
 --- | --- | --- | --- |
-PraNet[1] | no | 87.7 | 80.2 | 
-PraNet[1] | yes | 87.9 | 80.6 | 
+PraNet[1] | &#10007; | 87.7 | 80.2 | 
+PraNet[1] | &#10003; | 87.9 | 80.6 | 
 
 CVC-ColonDB:
 Model | SAMAug | meanDic | meanIoU |
 --- | --- | --- | --- |
-PraNet[1] | no | 67.3 | 59.8 | 
-PraNet[1] | yes | 70.6 | 63.2 | 
+PraNet[1] | &#10007; | 67.3 | 59.8 | 
+PraNet[1] | &#10003; | 70.6 | 63.2 | 
 
 ETIS-LaribPolypDB:
 Model | SAMAug | meanDic | meanIoU |
 --- | --- | --- | --- |
-PraNet[1] | no | 57.6 | 50.8 | 
-PraNet[1] | yes | 64.0 | 57.2 | 
+PraNet[1] | &#10007; | 57.6 | 50.8 | 
+PraNet[1] | &#10003; | 64.0 | 57.2 | 
 
 Kvasir:
 Model | SAMAug | meanDic | meanIoU |
 --- | --- | --- | --- |
-PraNet[1] | no | 85.4 | 78.8 | 
-PraNet[1] | yes | 89.7 | 83.7 | 
+PraNet[1] | &#10007; | 85.4 | 78.8 | 
+PraNet[1] | &#10003; | 89.7 | 83.7 | 
 
 ### Cell Segmentation in Histology Images:
 MoNuSeg (https://monuseg.grand-challenge.org/):
 Model | SAMAug | AJI | Pixel F-score |
 --- | --- | --- | --- |
-U-Net[2] | no | 58.36 | 75.70 | 
-U-Net[2] | yes | 64.30 | 82.56 | 
-P-Net[3] | no | 59.46 | 77.09 | 
-P-Net[3] | yes | 63.98 | 82.56 | 
-Attention Net[4] | no | 58.76 | 75.43 | 
-Attention Net[4] | yes | 63.15 | 81.49 | 
+U-Net[2] | &#10007; | 58.36 | 75.70 | 
+U-Net[2] | &#10003; | 64.30 | 82.56 | 
+P-Net[3] | &#10007; | 59.46 | 77.09 | 
+P-Net[3] | &#10003; | 63.98 | 82.56 | 
+Attention Net[4] | &#10007; | 58.76 | 75.43 | 
+Attention Net[4] | &#10003; | 63.15 | 81.49 | 
 
 [1] Fan, Deng-Ping, et al. "Pranet: Parallel reverse attention network for polyp segmentation." MICCAI, 2020.
 

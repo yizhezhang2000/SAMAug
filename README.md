@@ -67,14 +67,14 @@ Attention Net[4] | yes | 63.15 | 81.49 |
 
 [4] Oktay, Ozan, et al. "Attention U-Net: Learning Where to Look for the Pancreas." Medical Imaging with Deep Learning, 2018.
 
-## Pre-computed SAM Augmented Images
+## Pre-computed SAM-Augmented Images
 
 The SAM-augmented images for the CVC-ClinicDB, CVC-300, CVC-ColonDB, ETIS-LaribPolypDB, and Kvasir datasets can be obtained at the link below.
 
 
-In the near future, we will release more SAM augmented images for more datasets. 
+In the near future, we will release more SAM-augmented images for more datasets. 
 
-You can also use the script in SAMAug_batch.py for generating SAM augmented images for your own medical image dataset.
+You can also use the script in SAMAug_batch.py for generating SAM-augmented images for your own medical image dataset.
 
 
 Questions and comments are welcome! Thank you!

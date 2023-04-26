@@ -15,32 +15,34 @@ More technical details can be found in this technical report: https://arxiv.org/
 CVC-ClinicDB:
 Model | SAMAug | meanDic | meanIoU |
 --- | --- | --- | --- |
-PraNet | no | 85.8 | 80.0 | 
-PraNet | yes | 89.1 | 83.9 | 
+PraNet[1] | no | 85.8 | 80.0 | 
+PraNet[1] | yes | 89.1 | 83.9 | 
 
 CVC-300:
 Model | SAMAug | meanDic | meanIoU |
 --- | --- | --- | --- |
-PraNet | no | 87.7 | 80.2 | 
-PraNet | yes | 87.9 | 80.6 | 
+PraNet[1] | no | 87.7 | 80.2 | 
+PraNet[1] | yes | 87.9 | 80.6 | 
 
 CVC-ColonDB:
 Model | SAMAug | meanDic | meanIoU |
 --- | --- | --- | --- |
-PraNet | no | 67.3 | 59.8 | 
-PraNet | yes | 70.6 | 63.2 | 
+PraNet[1] | no | 67.3 | 59.8 | 
+PraNet[1] | yes | 70.6 | 63.2 | 
 
 ETIS-LaribPolypDB:
 Model | SAMAug | meanDic | meanIoU |
 --- | --- | --- | --- |
-PraNet | no | 57.6 | 50.8 | 
-PraNet | yes | 64.0 | 57.2 | 
+PraNet[1] | no | 57.6 | 50.8 | 
+PraNet[1] | yes | 64.0 | 57.2 | 
 
 Kvasir:
 Model | SAMAug | meanDic | meanIoU |
 --- | --- | --- | --- |
-PraNet | no | 85.4 | 78.8 | 
-PraNet | yes | 89.7 | 83.7 | 
+PraNet[1] | no | 85.4 | 78.8 | 
+PraNet[1] | yes | 89.7 | 83.7 | 
+
+[1] Fan, Deng-Ping, et al. "Pranet: Parallel reverse attention network for polyp segmentation." Medical Image Computing and Computer Assisted Intervention–MICCAI 2020: 23rd International Conference, Lima, Peru, October 4–8, 2020, Proceedings, Part VI 23. Springer International Publishing, 2020.
 
 ### Cell Segmentation in Histology Images:
 MoNuSeg (https://monuseg.grand-challenge.org/):

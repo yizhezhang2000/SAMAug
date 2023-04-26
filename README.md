@@ -12,6 +12,15 @@ More technical details can be found in this technical report: https://arxiv.org/
 ## Experiments and Results:
 
 ### cell segmentation in H&E stained images:
+MoNuSeg:
+Model | SAMAug | AJI | Pixel F-score |
+--- | --- | --- | --- |
+U-Net | no | 58.36 | 75.70 | 
+U-Net | yes | 64.30 | 82.56 | 
+P-Net | no | 59.46 | 77.09 | 
+P-Net | yes | 63.98 | 82.56 | 
+Attention Net | no | 58.76 | 75.43 | 
+Attention Net | yes | 63.15 | 81.49 | 
 
 
 ### polyp segmentation:

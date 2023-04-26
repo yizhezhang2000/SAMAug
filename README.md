@@ -5,7 +5,9 @@ We introduce an efficient method (SAMAug) that utilizes segmentation foundation 
 
 <img src="https://github.com/yizhezhang2000/SAMAug/blob/main/SAMAug_overview.png" width="80%" height="80%" />
 
-Image examples of the SAM augmented images:
+Examples of the SAM augmented images:
+
+<img src="https://github.com/yizhezhang2000/SAMAug/blob/main/examples.png" width="80%" height="80%" />
 
 More technical details can be found in this technical report: 
 
@@ -61,7 +63,7 @@ Attention Net[4] | yes | 63.15 | 81.49 |
 
 [2] Ronneberger, Olaf, Philipp Fischer, and Thomas Brox. "U-net: Convolutional networks for biomedical image segmentation." Medical Image Computing and Computer-Assisted Intervention–MICCAI 2015: MICCAI 2015.
 
-[3] Wang, Guotai, et al. "DeepIGeoS: a deep interactive geodesic framework for medical image segmentation." IEEE-TPAMI(2018): 1559-1572.
+[3] Wang, Guotai, et al. "DeepIGeoS: a deep interactive geodesic framework for medical image segmentation." IEEE-TPAMI(2018).
 
 [4] Oktay, Ozan, et al. "Attention U-Net: Learning Where to Look for the Pancreas." Medical Imaging with Deep Learning, 2018.
 

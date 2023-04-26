@@ -48,8 +48,6 @@ Model | SAMAug | meanDic | meanIoU |
 PraNet[1] | no | 85.4 | 78.8 | 
 PraNet[1] | yes | 89.7 | 83.7 | 
 
-[1] Fan, Deng-Ping, et al. "Pranet: Parallel reverse attention network for polyp segmentation." Medical Image Computing and Computer Assisted Intervention–MICCAI 2020: 23rd International Conference, Lima, Peru, October 4–8, 2020, Proceedings, Part VI 23. Springer International Publishing, 2020.
-
 ### Cell Segmentation in Histology Images:
 MoNuSeg (https://monuseg.grand-challenge.org/):
 Model | SAMAug | AJI | Pixel F-score |
@@ -60,6 +58,8 @@ P-Net[3] | no | 59.46 | 77.09 |
 P-Net[3] | yes | 63.98 | 82.56 | 
 Attention Net[4] | no | 58.76 | 75.43 | 
 Attention Net[4] | yes | 63.15 | 81.49 | 
+
+[1] Fan, Deng-Ping, et al. "Pranet: Parallel reverse attention network for polyp segmentation." Medical Image Computing and Computer Assisted Intervention–MICCAI 2020: 23rd International Conference, Lima, Peru, October 4–8, 2020, Proceedings, Part VI 23. Springer International Publishing, 2020.
 
 [2] Ronneberger, Olaf, Philipp Fischer, and Thomas Brox. "U-net: Convolutional networks for biomedical image segmentation." Medical Image Computing and Computer-Assisted Intervention–MICCAI 2015: MICCAI 2015.
 

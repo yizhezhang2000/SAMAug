@@ -2,28 +2,16 @@
 
 We introduce an efficient method (SAMAug) for utilizing segmentation foundation model (e.g., SAM) for boosting medical image segmentation. SAMAug utilizes segmentation foundation model (SAM) to augment image inputs for medical images. The augmented images thus generated are used for training and testing a task-specific medical image segmentation model (e.g., a U-Net model). SAMAug does not require fine-tuning on the foundation model. See below for an overview of the proposed method.
 
-![alt text](https://github.com/yizhezhang2000/SAMAug/blob/main/SAMAug_overview.png| width=100)
+
+<img src="https://github.com/yizhezhang2000/SAMAug/blob/main/SAMAug_overview.png" width="80%" height="80%" />
 
 More technical details can be found in this technical report: https://arxiv.org/abs/2304.11332
 
-
-
 ## Experiments and Results
 
-### cell segmentation in H&E stained images:
-MoNuSeg (https://monuseg.grand-challenge.org/):
-Model | SAMAug | AJI | Pixel F-score |
---- | --- | --- | --- |
-U-Net | no | 58.36 | 75.70 | 
-U-Net | yes | 64.30 | 82.56 | 
-P-Net | no | 59.46 | 77.09 | 
-P-Net | yes | 63.98 | 82.56 | 
-Attention Net | no | 58.76 | 75.43 | 
-Attention Net | yes | 63.15 | 81.49 | 
-
-
-### polyp segmentation:
+### Polyp Segmentation in Endoscopic Images:
 (https://github.com/DengPingFan/PraNet)
+
 CVC-ClinicDB:
 Model | SAMAug | meanDic | meanIoU |
 --- | --- | --- | --- |
@@ -53,6 +41,17 @@ Model | SAMAug | meanDic | meanIoU |
 --- | --- | --- | --- |
 PraNet | no | 85.4 | 78.8 | 
 PraNet | yes | 89.7 | 83.7 | 
+
+### Cell Segmentation in Histology Images:
+MoNuSeg (https://monuseg.grand-challenge.org/):
+Model | SAMAug | AJI | Pixel F-score |
+--- | --- | --- | --- |
+U-Net | no | 58.36 | 75.70 | 
+U-Net | yes | 64.30 | 82.56 | 
+P-Net | no | 59.46 | 77.09 | 
+P-Net | yes | 63.98 | 82.56 | 
+Attention Net | no | 58.76 | 75.43 | 
+Attention Net | yes | 63.15 | 81.49 | 
 
 ## Pre-computed SAM Augmented Images
 

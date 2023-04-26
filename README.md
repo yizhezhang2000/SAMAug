@@ -38,7 +38,7 @@ ETIS-LaribPolypDB:
 Model | SAMAug | meanDic | meanIoU |
 --- | --- | --- | --- |
 PraNet | no | 57.6 | 50.8 | 
-PraNet | yes | 64.5 | 57.1 | 
+PraNet | yes | 64.0 | 57.2 | 
 
 Kvasir:
 Model | SAMAug | meanDic | meanIoU |

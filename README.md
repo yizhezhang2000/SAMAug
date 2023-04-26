@@ -50,16 +50,18 @@ PraNet[1] | yes | 89.7 | 83.7 |
 MoNuSeg (https://monuseg.grand-challenge.org/):
 Model | SAMAug | AJI | Pixel F-score |
 --- | --- | --- | --- |
-U-Net | no | 58.36 | 75.70 | 
-U-Net | yes | 64.30 | 82.56 | 
-P-Net | no | 59.46 | 77.09 | 
-P-Net | yes | 63.98 | 82.56 | 
-Attention Net | no | 58.76 | 75.43 | 
-Attention Net | yes | 63.15 | 81.49 | 
+U-Net[2] | no | 58.36 | 75.70 | 
+U-Net[2] | yes | 64.30 | 82.56 | 
+P-Net[3] | no | 59.46 | 77.09 | 
+P-Net[3] | yes | 63.98 | 82.56 | 
+Attention Net[4] | no | 58.76 | 75.43 | 
+Attention Net[4] | yes | 63.15 | 81.49 | 
 
-[2]
-[3]
-[4]
+[2] Ronneberger, Olaf, Philipp Fischer, and Thomas Brox. "U-net: Convolutional networks for biomedical image segmentation." Medical Image Computing and Computer-Assisted Intervention–MICCAI 2015: MICCAI 2015.
+
+[3] Wang, Guotai, et al. "DeepIGeoS: a deep interactive geodesic framework for medical image segmentation." IEEE-TPAMI(2018): 1559-1572.
+
+[4] Oktay, Ozan, et al. "Attention U-Net: Learning Where to Look for the Pancreas." Medical Imaging with Deep Learning, 2018.
 
 ## Pre-computed SAM Augmented Images
 

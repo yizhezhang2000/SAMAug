@@ -71,6 +71,7 @@ Attention Net[4] | yes | 63.15 | 81.49 |
 
 The SAM-augmented images for the CVC-ClinicDB, CVC-300, CVC-ColonDB, ETIS-LaribPolypDB, and Kvasir datasets can be obtained at the link below.
 
+https://drive.google.com/drive/folders/1q6Ics1OuKVv0c1xGddUrQTx5QZhvB2iS?usp=share_link
 
 In the near future, we will release more SAM-augmented images for more datasets. 
 

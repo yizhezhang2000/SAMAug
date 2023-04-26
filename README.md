@@ -2,8 +2,7 @@
 
 We introduce an efficient method (SAMAug) for utilizing segmentation foundation model (e.g., SAM) for boosting medical image segmentation. SAMAug utilizes segmentation foundation model (SAM) to augment image inputs for medical images. The augmented images thus generated are used for training and testing a task-specific medical image segmentation model (e.g., a U-Net model). SAMAug does not require fine-tuning on the foundation model. See below for an overview of the proposed method.
 
-
-
+![alt text](https://github.com/yizhezhang2000/SAMAug/blob/main/SAMAug_overview.png| width=100)
 
 More technical details can be found in this technical report: https://arxiv.org/abs/2304.11332
 

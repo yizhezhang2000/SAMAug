@@ -77,7 +77,7 @@ https://drive.google.com/drive/folders/1q6Ics1OuKVv0c1xGddUrQTx5QZhvB2iS?usp=sha
 
 In the near future, we will release more SAM-augmented images for more datasets. 
 
-You can also use the script in [SAMAug.py](https://github.com/yizhezhang2000/SAMAug/blob/main/SAMAug.py) for generating SAM-augmented images for your own medical image data.
+You can also refer the script in [SAMAug.py](https://github.com/yizhezhang2000/SAMAug/blob/main/SAMAug.py) for generating SAM-augmented images for your own medical image data.
 
 ##
 Questions and comments are welcome! There is certainly room for further improvement. Please let us know whether SAMAug works in your datasets and experiments. 

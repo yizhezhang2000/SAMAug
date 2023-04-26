@@ -9,7 +9,6 @@ More technical details can be found in this technical report: https://arxiv.org/
 
 
 
-## Pre-computed SAM Augmented Images
 
 ## Experiments and Results:
 
@@ -34,7 +33,7 @@ CVC-ColonDB:
 Model | SAMAug | meanDic | meanIoU |
 --- | --- | --- | --- |
 PraNet | no | 67.3 | 59.8 | 
-PraNet | yes | 69.7 | 62.2 | 
+PraNet | yes | 70.6 | 63.2 | 
 
 ETIS-LaribPolypDB:
 Model | SAMAug | meanDic | meanIoU |
@@ -46,14 +45,17 @@ Kvasir:
 Model | SAMAug | meanDic | meanIoU |
 --- | --- | --- | --- |
 PraNet | no | 85.4 | 78.8 | 
-PraNet | yes | 88.4 | 81.6 | 
+PraNet | yes | 89.7 | 83.7 | 
 
-The SAM augmented images for the polyp segmentation experiments can be found here. 
+## Pre-computed SAM Augmented Images
+
+The SAM augmented images for the CVC-ClinicDB, CVC-300, CVC-ColonDB, ETIS-LaribPolypDB and Kvasir datasets can be obtained at the link below.
 
 
-To generate SAM augmented images yourself, please take a look:
 
-In the near future, we will release more SAM augmented images for more datasets.
+In the near future, we will release more SAM augmented images for more datasets. To generate SAM augmented images, please take a look at the link below.
+
+
 
 Please let us know your thoughts on this method. Thank you! 
 

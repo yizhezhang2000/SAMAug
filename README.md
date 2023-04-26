@@ -73,11 +73,11 @@ Attention Net[4] | &#10003; | 63.15 | 81.49 |
 
 ## Pre-computed SAM-Augmented Images
 
-The SAM-augmented images used in the polyp segmentation (CVC-ClinicDB, CVC-300, CVC-ColonDB, ETIS-LaribPolypDB, and Kvasir datasets) can be obtained at the link below.
+The SAM-augmented images used in the polyp segmentation (CVC-ClinicDB, CVC-300, CVC-ColonDB, ETIS-LaribPolypDB, and Kvasir datasets) can be downloaded at the link below. We can use these augmented data to test a new model.
 
 https://drive.google.com/drive/folders/1q6Ics1OuKVv0c1xGddUrQTx5QZhvB2iS?usp=share_link
 
-In the near future, we will release more SAM-augmented images for more datasets. 
+In the near future, we will share more SAM-augmented images for more datasets. 
 
 You can also refer the script in [SAMAug.py](https://github.com/yizhezhang2000/SAMAug/blob/main/SAMAug.py) for generating SAM-augmented images for your own medical image data.
 

@@ -10,11 +10,12 @@ on cell segmentation in H&E stained images:
 
 on polyp segmentation:
 
-Model | SAMAug |  | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-PraNet | no | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-PraNet | yes | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
+CVC-300:
+Model | SAMAug | meanDic | meanIoU |
+--- | --- | --- | --- |
+PraNet | no | 87.7 | 80.2 | 
+--- | --- | --- | --- |
+PraNet | yes | 87.9 | 80.6 | 
 
 
 The SAM augmented images for the polyp segmentation experiments can be found here. 

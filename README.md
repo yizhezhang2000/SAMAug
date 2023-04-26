@@ -9,7 +9,7 @@ More technical details can be found in this technical report: https://arxiv.org/
 
 
 
-## Experiments and Results:
+## Experiments and Results
 
 ### cell segmentation in H&E stained images:
 MoNuSeg (https://monuseg.grand-challenge.org/):

@@ -5,7 +5,9 @@ We introduce an efficient method (SAMAug) for utilizing segmentation foundation 
 
 
 
-More technical details can be found in this technical report:
+More technical details can be found in this technical report: https://arxiv.org/abs/2304.11332
+
+
 
 ## Pre-computed SAM Augmented Images
 

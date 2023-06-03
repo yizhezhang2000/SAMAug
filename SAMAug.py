@@ -20,6 +20,6 @@ def SAMAug(tI,mask_generator):
         SegPrior[np.where(thismask_==1)]=SegPrior[np.where(thismask_==1)]+stability_score
         BoundaryPrior=BoundaryPrior+find_boundaries(thismask_,mode='thick') 
         BoundaryPrior[np.where(BoundaryPrior>0)]=1
-        tI[:,:,1]=tI[:,:,1]+SegPrior
-        tI[:,:,2]=tI[:,:,2]+BoundaryPrior
+    tI[:,:,1]=tI[:,:,1]+SegPrior
+    tI[:,:,2]=tI[:,:,2]+BoundaryPrior
     return tI

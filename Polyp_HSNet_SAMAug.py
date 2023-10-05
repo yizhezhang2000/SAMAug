@@ -4,8 +4,8 @@ import os
 import argparse
 from datetime import datetime
 from lib.pvt import HSNet_with_aux
-from utils.dataloader import get_loader_with_aux, test_dataset_with_aux
-from utils.utils import clip_gradient, adjust_lr, AvgMeter
+from dataloader import get_loader_with_aux, test_dataset_with_aux
+from utils import clip_gradient, adjust_lr, AvgMeter
 import numpy as np
 import random
 import torch.nn.functional as F

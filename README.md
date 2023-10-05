@@ -1,6 +1,6 @@
 # SAMAug: Augmenting Medical Images with Segmentation Foundation Model
 
-## Oct. 5th 2023 Update:
+### Oct. 5th 2023 Update:
 
 Uploaded python scripts (model training and testing with SAMAug) for the polyp segmentation experiments.
 

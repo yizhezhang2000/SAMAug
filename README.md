@@ -1,8 +1,10 @@
 # SAMAug: Augmenting Medical Images with Segmentation Foundation Model
 
 ## Oct. 5th 2023 Update:
+
 Uploaded the scripts (model training and testing with SAMAug) for the experiments on polyp segmentation. 
 
+## 
 We introduce SAMAug, an efficient method that utilizes a segmentation foundation model (SAM) for improving medical image segmentation. SAMAug utilizes a segmentation foundation model (SAM) to augment medical images. The augmented images thus generated are then used for training and testing a task-specific medical image segmentation model (e.g., a U-Net model for cell segmentation). SAMAug does not require fine-tuning on the foundation model. Please see below for an overview of the proposed method.
 
 

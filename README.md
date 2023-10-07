@@ -77,7 +77,7 @@ Attention Net[4] | &#10003; | 63.15 | 81.49 |
 [4] Oktay, Ozan, et al. "Attention U-Net: Learning Where to Look for the Pancreas." Medical Imaging with Deep Learning, 2018.
 
 
-You can refer the script in [SAMAug.py](https://github.com/yizhezhang2000/SAMAug/blob/main/SAMAug.py) for generating SAM-augmented images for your own medical image data.
+You can refer the script in [SAMAug.py](https://github.com/yizhezhang2000/SAMAug/blob/main/SAMAug_barebone.py) for generating SAM-augmented images for your own medical image data.
 
 ##
 Questions and comments are welcome! We believe there is room for further improvement. Please consider sharing your experience in using SAMAug. Thank you.

@@ -1,5 +1,9 @@
 # SAMAug: Augmenting Medical Images with Segmentation Foundation Model
 
+### Oct. 12th 2023 Update:
+
+SamAug was presented in the MICCAI 2023 1st International Workshop on Foundation Models for General Medical AI (MedAGI). See https://medagi.github.io/#/program for more details.
+
 ### Oct. 5th 2023 Update:
 
 Uploaded python scripts (model training and testing with SAMAug) for the polyp segmentation experiments.

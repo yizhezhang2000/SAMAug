@@ -2,7 +2,7 @@
 
 ### Oct. 12th 2023 Update:
 
-SamAug was presented in the MICCAI 2023 1st International Workshop on Foundation Models for General Medical AI (MedAGI). See https://medagi.github.io/#/program for more details.
+SamAug was presented in the MICCAI 2023 1st International Workshop on Foundation Models for General Medical AI (MedAGI). See https://medagi.github.io/#/program for more details and other excellent papers.
 
 ### Oct. 5th 2023 Update:
 
